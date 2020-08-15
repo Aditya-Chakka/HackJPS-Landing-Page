@@ -10273,7 +10273,7 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  background: #ffffff;
+  background: #dae90a;
   /* background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%); */
 }
 .about-section p {
@@ -10391,4 +10391,9 @@ body {
 
 .bg-yellow{
   background-color: #dae90a !important;
+}
+
+#logo{
+  height: 50px;
+  width: auto;
 }
