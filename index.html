@@ -31,9 +31,9 @@
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#schedule">Schedule</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#signup">Sponsors</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#signup">Our Team</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#signup">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#sponsors">Sponsors</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#ourteam">Our Team</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -54,10 +54,10 @@
             </div>
         </header>
         <!-- About-->
-        <section class="about-section " id="about">
+        <section class="about-section">
             <br><br><br>
             <div class="container">
-                <div class="row">
+                <div class="row" id="about">
                     <div class="col-lg-10 mx-auto">
                         <h2 class = "text-black mb-4 text-center">About Us</h2>
                         <p class="text-black-50">
@@ -113,24 +113,25 @@
                 </div>
                 <!-- <img class="img-fluid" src="assets/img/ipad.png" alt="" /> -->
             </div>
+            <br><br><br>
         </section>
         <!-- Projects-->
-        <section class="projects-section bg-light" id="schedule">
+        <section class="projects-section">
             <div class="container">
-                <div class="row">
+                <div class="row" id="schedule">
                     <div class="col-lg-10 mx-auto">
-                        <h2 class="text-black mb-4 text-center">Schedule</h2>
+                        <h2 class="text-black mb-4 text-center"><strong>Schedule</strong></h2>
                     </div>
                 </div>
                 <!-- Project One Row-->
                 <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-01.jpg" alt="" /></div>
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/hackjps/brainstorm.svg" alt="" /></div>
                     <div class="col-lg-6">
                         <div class="bg-green text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Day 1</h4>
-                                    <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                                    <h4 class="text-white">Day 1: September 18th</h4>
+                                    <p class="mb-0 text-white">Finalize teams, brainstorm ideas, and begin hacking!</p>
                                     <hr class="d-none d-lg-block mb-0 ml-0" />
                                 </div>
                             </div>
@@ -138,14 +139,14 @@
                     </div>
                 </div>
                 <!-- Project Two Row-->
-                <div class="row justify-content-center no-gutters">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="" /></div>
+                <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/hackjps/developer.svg" alt="" /></div>
                     <div class="col-lg-6 order-lg-first">
                         <div class="bg-yellow text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Day 2 & 3</h4>
-                                    <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
+                                    <h4 class="text-white">Day 2 & 3: September 19th & 20th</h4>
+                                    <p class="mb-0 text-white">Use these days to collaborate with your team, finalize your project, and submit it to devpost!</p>
                                     <hr class="d-none d-lg-block mb-0 mr-0" />
                                 </div>
                             </div>
@@ -154,13 +155,13 @@
                 </div>
                 <!-- Project Three Row-->
                 <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-01.jpg" alt="" /></div>
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/hackjps/podium.svg" alt="" /></div>
                     <div class="col-lg-6">
                         <div class="bg-green text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Day 4</h4>
-                                    <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                                    <h4 class="text-white">Day 4: September 21st</h4>
+                                    <p class="mb-0 text-white">By 3:00pm EST, the judges will have seen an judged every submission, we will announce winners and reach out them individually!</p>
                                     <hr class="d-none d-lg-block mb-0 ml-0" />
                                 </div>
                             </div>
@@ -168,61 +169,80 @@
                     </div>
                 </div>
             </div>
+            <br><br><br>
         </section>
         <!-- Signup-->
-        <section class="signup-section" id="signup">
+        <section class="signup-section" id="ourteam">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-10 col-lg-8 mx-auto text-center">
-                        <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                        <h2 class="text-white mb-5">Join our mailing list to recieve updates!</h2>
-                        <form class="form-inline d-flex">
-                            <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" type="email" placeholder="Enter email address..." />
-                            <button class="btn btn-primary mx-auto" type="submit">Subscribe</button>
-                        </form>
+                    <div class="col-md-3 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <img class="card-img-top" src="..." alt="Card image cap">
+                            <div class="card-body text-center">
+                                <h4 class="text-uppercase m-0">Venkat K</h4><br>
+                                <div class="small text-black-50">link</div>
+                            </div>
+                        </div>
                     </div>
+                    <div class="col-md-3 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <h4 class="text-uppercase m-0">Aditya C</h4>
+                                <hr class="my-4" />
+                                <div class="small text-black-50"><a href="#!">link</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <h4 class="text-uppercase m-0">Rishi S</h4>
+                                <hr class="my-4" />
+                                <div class="small text-black-50">link</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <h4 class="text-uppercase m-0">Aayush G</h4>
+                                <hr class="my-4" />
+                                <div class="small text-black-50">link</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <h4 class="text-uppercase m-0">Krish N</h4>
+                                <hr class="my-4" />
+                                <div class="small text-black-50">link</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <h4 class="text-uppercase m-0">Ashwin S</h4>
+                                <hr class="my-4" />
+                                <div class="small text-black-50">link</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    
                 </div>
             </div>
         </section>
         <!-- Contact-->
         <section class="contact-section bg-black">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <!-- <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Address</h4>
-                                <hr class="my-4" />
-                                <div class="small text-black-50">4923 Market Street, Orlando FL</div>
-                            </div>
-                        </div> -->
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-envelope text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Email</h4>
-                                <hr class="my-4" />
-                                <div class="small text-black-50"><a href="#!">hackathonjps@gmail.com</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <!-- <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Phone</h4>
-                                <hr class="my-4" />
-                                <div class="small text-black-50">+1 (555) 902-8832</div>
-                            </div>
-                        </div> -->
-                    </div>
-                </div>
-                <div class="social d-flex justify-content-center">
-                    <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+            <div class="container" id = "contact">
+                <div class="social d-flex justify-content-center" id = "contact">
+                    <a class="mx-2" href="https://www.instagram.com/hackjps2020/?igshid=n2g4fgn9hsng" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a class="mx-2" href="mailto:hackathonjps@gmail.com"> <i class="fab fa fa-envelope"></i></a>
+                    <a class="mx-2" href="https://github.com/Aditya-Chakka/HackJPS-Landing-Page" target="_blank"><i class="fab fa-github"></i></a>
+                    <a class="mx-2" href="https://discord.gg/jkSyn73" target="_blank"><i class="fab fa-discord"></i></a>
                 </div>
             </div>
         </section>

@@ -10282,6 +10282,7 @@ body {
 
 .projects-section {
   padding: 10rem 0;
+  background: rgba(12, 151, 65, 0.5);
 }
 .projects-section .featured-text {
   padding: 2rem;
