@@ -10275,7 +10275,11 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  background: rgba(218, 233, 10, 0.5);
+  background-image: url("/assets/hackjps/logo_transparent.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+  background-color: rgba(218, 233, 10, 0.5);
   /* background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%); */
 }
 .about-section p {
