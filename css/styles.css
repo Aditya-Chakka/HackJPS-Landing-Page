@@ -4425,7 +4425,7 @@ input[type=button].btn-block {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: none;
   border-radius: 0.25rem;
   padding-bottom: 10px;
 }
@@ -4521,7 +4521,8 @@ input[type=button].btn-block {
 .card-img-top,
 .card-img-bottom {
   flex-shrink: 0;
-  width: 100%;
+  text-align: center;
+  max-width: 75%;
 }
 
 .card-img,
@@ -4601,8 +4602,9 @@ input[type=button].btn-block {
 }
 @media (min-width: 576px) {
   .card-columns {
-    -moz-column-count: 3;
-         column-count: 3;
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+         column-count: 4;
     -moz-column-gap: 1.25rem;
          column-gap: 1.25rem;
     orphans: 1;
@@ -10316,7 +10318,7 @@ body {
 
 .signup-section {
   padding: 10rem 0;
-  background: rgba(218, 233, 10, 0.5);
+  background: rgba(12, 151, 65, 0.5);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10403,4 +10405,22 @@ body {
 #logo{
   height: 50px;
   width: auto;
+}
+
+.sponsor-section{
+  padding-top: 10rem;
+  background-image: url("/assets/hackjps/logo_transparent.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+  background: rgb(255, 255, 255);
+}
+.sponsor-section p {
+  margin-bottom: 2rem;
+}
+
+.center-block{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
