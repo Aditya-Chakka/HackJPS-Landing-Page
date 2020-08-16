@@ -10354,7 +10354,7 @@ body {
   width: 3rem;
 }
 .contact-section .social {
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 .contact-section .social a {
   text-align: center;
@@ -10396,6 +10396,10 @@ body {
 
 .bg-green{
   background-color: #0c9741 !important;
+}
+
+.bg-green-light{
+  background: rgba(12, 151, 65, 0.5);
 }
 
 .bg-yellow{
