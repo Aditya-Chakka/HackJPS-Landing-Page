@@ -1728,7 +1728,7 @@ pre code {
 }
 
 .table-hover tbody tr:hover {
-  color: #212529;
+  color: rgba(218, 233, 10, 1) ;
   background-color: rgba(0, 0, 0, 0.075);
 }
 
@@ -10302,12 +10302,12 @@ body {
   }
 }
 .projects-section .project-text {
-  padding: 3rem;
-  font-size: 90%;
+  padding: 2rem;
+  font-size: 75%;
 }
 @media (min-width: 992px) {
   .projects-section .project-text {
-    padding: 5rem;
+    padding: 2rem;
   }
   .projects-section .project-text hr {
     border-color: #64a19d;
@@ -10403,7 +10403,7 @@ body {
 }
 
 .bg-yellow{
-  background-color: #dae90a !important;
+  background-color: rgba(218, 233, 10, 0.6) !important;
 }
 
 #logo{
